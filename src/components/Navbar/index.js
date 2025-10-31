@@ -1,5 +1,6 @@
 import {withRouter, Link} from 'react-router-dom'
-import {BsSun, BsFillMoonFill} from 'react-icons/bs'
+import {BsSun} from 'react-icons/bs'
+import {BiSolidMoon} from 'react-icons/bi'
 import Cookies from 'js-cookie'
 import Popup from 'reactjs-popup'
 import 'reactjs-popup/dist/index.css'
@@ -46,7 +47,7 @@ const Navbar = props => (
                   {theme === 'DARK_MODE' ? (
                     <BsSun color="white" size={24} />
                   ) : (
-                    <BsFillMoonFill size={24} />
+                    <BiSolidMoon size={24} />
                   )}
                 </button>
               </Tippy>

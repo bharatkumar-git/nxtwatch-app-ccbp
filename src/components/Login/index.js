@@ -101,6 +101,7 @@ class Login extends Component {
                       type="text"
                       id="username"
                       value={username}
+                      placeholder="use - deepak"
                     />
                   </div>
                   <div className="login-username-div-container">
@@ -116,6 +117,7 @@ class Login extends Component {
                       type={passwordType}
                       id="password"
                       value={password}
+                      placeholder="use - lightstar@1"
                     />
                   </div>
                   <div className="login-checkbox-div-container">
