@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 .login-form-box {
   width: 100%;
-  margin-top: 24px;
+  margin-top: 48px;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -42,4 +42,9 @@
   border-radius: 4px;
   cursor: pointer;
   font-family: inherit;
+  margin-top: 24px;
+}
+.white-text {
+  background-color: rgb(219, 216, 212);
+  color: rgb(121, 115, 115);
 }

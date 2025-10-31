@@ -68,6 +68,7 @@ class Login extends Component {
       <AppContext.Consumer>
         {value => {
           const {theme} = value
+          const whiteText = theme === 'DARK_MODE' ? '' : 'white-text'
           return (
             <MainContainer mode={theme}>
               <ContentContainer mode={theme}>
@@ -134,11 +135,18 @@ class Login extends Component {
                       Show Password
                     </label>
                   </div>
-                  <button className="login-form-submit-button" type="submit">
+                  <button
+                    className={`login-form-submit-button ${whiteText}`}
+                    type="submit"
+                  >
                     Login
                   </button>
                   {showErrorMsg && (
-                    <p style={{color: 'red', fontSize: '14px'}}>*{errorMsg}</p>
+                    <p
+                      style={{color: 'red', fontSize: '14px', marginTop: '0px'}}
+                    >
+                      *{errorMsg}
+                    </p>
                   )}
                 </form>
               </ContentContainer>
