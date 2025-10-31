@@ -1,0 +1,56 @@
+.light-mode {
+  --bg-color: black;
+}
+.dark-mode {
+  --bg-color: white;
+}
+.theme-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 8px;
+}
+.navbar-profile-image {
+  width: 30px;
+}
+.navbar-content-box {
+  margin-left: 24px;
+  margin-right: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+.navbar-logout-box {
+  display: flex;
+  align-items: center;
+}
+.navbar-logo-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup-content {
+  width: 280px;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: black; */
+  background-color: black;
+}
+.navbar-popup-button {
+  border: 1px white solid;
+  background-color: white;
+  outline: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  color: black;
+  /* font-weight: 600; */
+  cursor: pointer;
+}

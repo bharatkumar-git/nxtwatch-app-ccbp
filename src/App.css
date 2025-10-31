@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  /* font-family: 'Roboto'; */
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  --bg-color: black;
+}
+.dark-mode {
+  --bg-color: white;
+}
+
+.bg-black {
+  background-color: black;
+  /* max-height: 100vh; */
+  /* overflow: auto; */
+}
+.bg-white {
+  background-color: white;
+}

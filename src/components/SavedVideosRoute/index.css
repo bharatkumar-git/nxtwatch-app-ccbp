@@ -1,0 +1,11 @@
+.no-saved-videos-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.saved-videos-ul-box {
+  padding-left: 0px;
+  list-style-type: none;
+}

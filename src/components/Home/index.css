@@ -1,0 +1,83 @@
+.page-with-navbar-box {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /* max-height: 100vh; */
+}
+.sidebar-home-box {
+  display: flex;
+  /* flex-grow: 1; */
+  height: 90vh;
+  /* max-height: 90vh; */
+  /* overflow-y: scroll; */
+}
+.home-banner-box {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  height: 200px;
+  background-size: cover;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+.home-close-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+.home-getItNow-button {
+  height: 30px;
+  width: 94px;
+  border: 1px black solid;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: white;
+}
+.home-loader-box {
+  /* height: 100%; */
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-failure-view-box {
+  /* height: 100%; */
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  line-height: 14px;
+}
+.home-failure-view-retry-button {
+  height: 32px;
+  width: 84px;
+  /* border: 1px rgb(172, 166, 166) solid; */
+  background-color: blue;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  border: none;
+}
+.homePage-content-box {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  border-radius: 4px;
+}
+.home-successView-ul-box {
+  padding-left: 0px;
+  list-style-type: none;
+  /* height: 100%; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+  flex-grow: 1;
+  /* overflow-y: hidden; */
+}

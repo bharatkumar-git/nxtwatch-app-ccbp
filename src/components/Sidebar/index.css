@@ -1,0 +1,31 @@
+.light-mode {
+  --hover-bg: rgba(182, 179, 179, 0.678);
+}
+.dark-mode {
+  --hover-bg: rgba(65, 58, 58, 0.404);
+}
+.sidebar-nav-box {
+  flex-grow: 1;
+}
+.sidebar-nav-items-ul-box {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.sidebar-li-item:hover {
+  border-radius: 8px;
+  background-color: var(--hover-bg);
+  transition: background-color 0.3s;
+}
+.sidebar-list-item-text {
+  font-weight: 600;
+}
+.sidebar-link-text {
+  text-decoration: none;
+  width: 100%;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-inline: 8px;
+}

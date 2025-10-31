@@ -1,0 +1,5 @@
+.trending-video-link-box {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+}
